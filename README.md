@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to your new dbt project!
 
 ### Using the starter project
@@ -13,3 +14,6 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+=======
+# de-exchange-rates-pipeline
+>>>>>>> 48556f5f86b5c09410f6bc2f3d8434a9b436a0da

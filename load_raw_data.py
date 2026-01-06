@@ -33,7 +33,7 @@ conn = snowflake.connector.connect(
 # ============================================
 
 # This is the API URL - asking for USD exchange rates from Jan 1 to June 30, 2024
-url = "https://api.frankfurter.app/2024-01-01..2024-06-30?from=USD"
+url = "https://api.frankfurter.app/2024-07-01..2024-07-31?from=USD"
 
 # requests.get() visits that URL and gets the response (like your browser does)
 response = requests.get(url)

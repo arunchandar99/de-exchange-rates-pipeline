@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: fct_exchange_rates
+    description: "Incremental fact table of daily exchange rates"
+    columns:
+      - name: rate_date
+        description: "Date of the exchange rate"
+        tests:
+          - not_null
+      - name: base_currency
+        description: "Source currency (USD)"
+        tests:
+          - not_null
+      - name: target_currency
+        description: "Target currency code"
+        tests:
+          - not_null
+      - name: rate
+        description: "Exchange rate value"
+        tests:
+          - not_null
