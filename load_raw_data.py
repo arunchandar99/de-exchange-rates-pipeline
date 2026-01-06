@@ -20,7 +20,7 @@ import json
 # Think of it like logging into Snowflake, but from Python
 conn = snowflake.connector.connect(
     user='arunchandar',              # Your Snowflake username
-    password='Ilovehandball@99',     # Your Snowflake password
+    password='**********',     # Your Snowflake password
     account='ACCNYTE-WXC26408',      # Your Snowflake account identifier
     warehouse='COMPUTE_WH',          # The warehouse to use for compute
     database='DE_EXCHANGE_RATES',    # The database we created
