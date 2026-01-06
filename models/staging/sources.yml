@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: main
+    database: DE_EXCHANGE_RATES
+    schema: MAIN
+    tables:
+      - name: raw_exchange_rates

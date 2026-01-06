@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/arunchandar/Desktop/Data\\\\ Engineering/de_exchange_rates_pipeline && dbt debug:*)",
+      "Bash(cd /Users/arunchandar/Desktop/Data\\\\ Engineering/de_exchange_rates_pipeline && dbt run:*)"
+    ]
+  }
+}
